@@ -29,11 +29,13 @@ function galToLit(number1) {
 //front (user interface logic) end stuff. 👇
 
 //Here are some prompts.
-const number1 = prompt("Enter a number:");
-const number2 = prompt("Enter another number:");
+$(document).ready(funtion() {
+  const number1 = prompt("Enter a number:"));
+  const number2 = prompt("Enter another number:"));
 
 //specify which operation will occur.
-const result = galToLit(number1, number2);
+  const result = galToLit(number1, number2));
 
 //shows the user what is up my cool gangster friend buddy pal.
-alert(result);
+  alert(result));
+});
