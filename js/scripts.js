@@ -33,3 +33,23 @@ $(document).ready(function() {
     $("#output2").text(result);
   });
 });
+
+$(document).ready(function() {
+  $("form#mult").submit(function(event) {
+   event.preventDefault();
+    const number1 = parseInt($("#mult1").val());
+    const number2 = parseInt($("#mult2").val());
+    const result = multiply(number1, number2);
+    $("#output3").text(result);
+  });
+});
+
+$(document).ready(function() {
+  $("form#divide").submit(function(event) {
+   event.preventDefault();
+    const number1 = parseInt($("#divide1").val());
+    const number2 = parseInt($("#divide2").val());
+    const result = divide(number1, number2);
+    $("#output4").text(result);
+  });
+});
